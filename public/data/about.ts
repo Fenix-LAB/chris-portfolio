@@ -1,54 +1,71 @@
 export const aboutMe = {
   description: [
-    "A Full Stack Developer (MERN) with a degree in Computer Science (Information Systems) from Ain Shams University and 9 months of professional training at Information Technology Institute (ITI) in Web & UI Development.",
-    "Experienced in leadership, teaching, and mentoring, having served as a military reserve officer with a background in web development. Skilled in front-end and back-end development, as well as UI/UX design, and can deliver results under pressure. Passionate about building scalable web applications and contributing to innovative projects.",
+    "I am a Mechatronic Engineer with a passion for Python development and Backend technologies. I have a strong foundation in programming languages such as Python, JavaScript, and TypeScript, and I am proficient in various backend frameworks including FastAPI, Flask, and Django.",
+    "My expertise extends to automation testing using tools like Selenium, Appium, and Robot Framework, as well as machine learning with TensorFlow and Scikit-Learn. I am also experienced in cloud computing, particularly with AWS services such as Lambda, EC2, S3, and RDS.",
+    "",
   ],
   // Simply upload your CV to your Google Drive, then just copy the link to the uploaded file and paste it here.
   cvDriveLink:
-    "https://drive.google.com/file/d/1vqkYvwaAUv3WlqJh1cg4PuwS3PFXBjSM/view?usp=drive_link",
+    "https://drive.google.com/file/d/1KgiIgTY69QyxvoI0rv_PQ_aqIYb3zVFf/view?usp=share_link",
 };
 
 export const technicalSkills: Record<string, string[]> = {
   // You can rename the type of skills, it's dynamically rendered. eg: You can change "Programming Languages" -> to just "Languages"
-  "Programming Languages": ["JavaScript", "TypeScript", "C#", "C++"],
-  "Frontend Development": [
-    "React",
-    "Next.js",
-    "Angular",
-    "HTML5",
-    "CSS3",
-    "Bootstrap",
-    "Tailwind",
-    "Chakra UI",
-    "Redux Toolkit",
+  "Programming Languages": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "C++",
+    "Bash"
   ],
   "Backend Development": [
+    "FastAPI",
+    "Flask",
+    "Django",
     "Node.js",
-    "Express.js",
-    ".NET",
-    "MongoDB",
-    "Mongoose",
-    "SQL",
-    "MySQL",
+    "Nest.js",
+
   ],
-  "UI/UX Design": [
-    "Figma",
-    "Adobe Illustrator",
-    "Adobe Photoshop",
-    "Miro",
-    "MockFlow",
+  "Automation": [
+    "Selenium",
+    "Appium",
+    "PyAutoGUI",
+    "Robot Framework",
+    "Playwright",
+  ],
+  "Machine Learning": [
+    "TensorFlow",
+    "Keras",
+    "Scikit-Learn",
+    "Pandas",
+    "NumPy",
   ],
   "Tools & Technologies": [
     "Git",
     "GitHub",
     "Agile (Scrum, Jira, Kanban)",
-    "Trello",
+    "Docker",
+    "Postman",
+    "Swagger",
+    "CI/CD",
+    "RESTful APIs",
+    "GraphQL",
+    "WebSockets",
+    "SQL (PostgreSQL, MySQL)",
+    "NoSQL (MongoDB, Redis)",
+    "Linux",
   ],
-  "Soft Skills": [
-    "Presentation",
-    "Communication",
-    "Professional Demeanor",
-    "Leadership",
-    "Mentorship",
+  "Cloud Computing": [
+    "AWS Lambda",
+    "AWS EC2",
+    "AWS S3",
+    "AWS RDS",
+    "AWS IAM",
+    "AWS API Gateway",
+    "AWS CloudWatch",
+    "AWS App Runner",
+    "AWS Amplify",
+    "AWS IoT Core",
+    "AWS Fargate",
   ],
 };

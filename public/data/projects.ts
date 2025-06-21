@@ -4,21 +4,24 @@ export const projects = [
     // Of course it's best to convert your image file type to webp for better performance on the web!
     // Or just use a cloud image hosting platform like cloudinary and use the image url from there.
     ImageURL: "/assets/project-eshterely.webp", //
-    Title: "Eshterely",
+    Title: "Mobile App Access Control",
     Description:
-      "A full-stack modern e-commerce platform for high-end audio and visual equipment.",
+      "A full-stack mobile app for managing access control in buildings.",
     Technologies: [
-      "react",
-      "javascript",
-      "tailwind",
-      "redux toolkit",
-      "responsive",
-      "node",
-      "express",
-      "mongodb",
+      "ionic",
+      "vue",
+      "capacitor",
+      "typescript",
+      "cordova",
+      "fastapi",
+      "python",
+      "postgresql",
+      "docker",
+      "graphql",
+      "hasura",
     ],
-    Source: "https://github.com/KareemEhab/Eshterely-Frontend", // Optional!
-    Demo: "https://eshtrely.netlify.app/", // Optional!
+    Source: "https://github.com/Fenix-LAB/qr_mobile_app", // Optional!
+    //Demo: "https://eshtrely.netlify.app/", // Optional!
   },
   {
     ImageURL: "/assets/project-gamehub.webp",

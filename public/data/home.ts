@@ -24,7 +24,7 @@ export const homeData = {
     },
     {
       Icon: FaPhoneAlt,
-      Label: "+52 55 4183 2110",
+      Label: "+52 55 4183 2116",
       Link: "tel:+525541832116",
     },
   ],

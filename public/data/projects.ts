@@ -3,7 +3,7 @@ export const projects = [
     // To use your own project photo, just place it in /public/assets and write the link as I did: eg: /assets/my_image.jpg
     // Of course it's best to convert your image file type to webp for better performance on the web!
     // Or just use a cloud image hosting platform like cloudinary and use the image url from there.
-    ImageURL: "/assets/project-eshterely.webp", //
+    ImageURL: "/assets/qr_mobile_app.webp", //
     Title: "Mobile App Access Control",
     Description:
       "A full-stack mobile app for managing access control in buildings.",
@@ -24,31 +24,34 @@ export const projects = [
     //Demo: "https://eshtrely.netlify.app/", // Optional!
   },
   {
-    ImageURL: "/assets/project-gamehub.webp",
-    Title: "Game Hub",
+    ImageURL: "/assets/failure_detector.webp",
+    Title: "Failure Detector",
     Description:
-      "A full-stack e-commerce platform for buying and viewing games",
+      "A full-stack web application for detecting failures in systems using machine learning.",
     Technologies: [
       "angular",
-      "typescript",
-      "tailwind",
-      "ngxs",
-      "responsive",
-      "node",
-      "express",
-      "mongodb",
-      "javascript",
+      "fastapi",
+      "python",
+      "pytorch",
+      "postgresql",
+      "docker",
+      "aws-iot",
     ],
-    Source: "https://github.com/KareemEhab/game-hub-frontend",
-    Demo: "https://game-hub-iti.netlify.app/",
+    Source: "",
+    Demo: "",
   },
   {
-    ImageURL: "/assets/project-vscode.webp",
-    Title: "VSCode Themed Portfolio",
-    Description: "My personal portfolio with the Visual Studio Code IDE theme.",
-    Technologies: ["react", "typescript", "chakra-ui", "responsive"],
-    Source: "https://github.com/KareemEhab/VSCode-Themed-Portfolio",
-    Demo: "https://vs-code-themed-portfolio-theta.vercel.app/",
+    ImageURL: "/assets/rusty_detector.webp",
+    Title: "Rusty Detector",
+    Description: "App for detecting rust on metal surfaces.",
+    Technologies: [
+      "python",
+      "pytorch",
+      "ultralytics",
+      "opencv",
+    ],
+    Source: "https://github.com/Fenix-LAB/rusty-detector",
+    Demo: "",
   },
   {
     ImageURL: "/assets/project-kanban-task-management-app.webp",

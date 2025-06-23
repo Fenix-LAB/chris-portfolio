@@ -91,11 +91,15 @@ export const projects = [
     Demo: "https://audiophile-ecommerce-webapp.vercel.app/",
   },
   {
-    ImageURL: "/assets/project-recipepage.webp",
-    Title: "Recipe Page",
-    Description: "A simple recipe page for making an omelette.",
-    Technologies: ["html", "css", "responsive"],
-    Source: "https://github.com/KareemEhab/recipe-page-main",
-    Demo: "https://recipe-page-main-phi.vercel.app/",
+    ImageURL: "/assets/oidiosis_detector.webp",
+    Title: "Oidiosis Detector",
+    Description: "A web application for detecting oidiosis in plants.",
+    Technologies: [
+      "python",
+      "opencv",
+      "yolov8",
+    ],
+    Source: "https://github.com/Fenix-LAB/oidiosis-detector",
+    Demo: "",
   },
 ];
